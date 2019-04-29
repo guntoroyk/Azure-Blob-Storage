@@ -41,7 +41,7 @@ use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
 use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
-$connectionString = "DefaultEndpointsProtocol=https;AccountName=".getenv('ACCOUNT_NAME').";AccountKey=".getenv('ACCOUNT_KEY');
+$connectionString = "DefaultEndpointsProtocol=https;AccountName=".getenv('guntorostorage').";AccountKey=".getenv('cfZx95d350XEg0ADq+WmxVwfbyvIEZPuW8JLkzp7PD5c5q7En6IGR1s4aI4VPPa/GjT8zgd4AgcjB9mPijcjlQ==');
 
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
